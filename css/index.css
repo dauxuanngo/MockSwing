@@ -1,0 +1,47 @@
+.hero-image {
+    background-color: #eee3d1;
+    background-image: url('https://www.printo.com.au/media/catalog/category/universal-banner.jpg');
+    height: 600px;
+}
+
+.search-bar {
+    border-radius: 2px;
+    width: 420px;
+    background: #fff;
+}
+
+.hero-content {
+    width: auto;
+}
+
+.hero-text {
+    color:white;
+    line-height: 1.23;
+    font-weight: bold;
+    font-size: 2.44rem;
+}
+
+.hero_shop_categories {
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-size: 0.9375rem;
+    padding: 0.75rem 0;
+    bottom: 0;
+    background-color: rgba(40,37,98,0.8);
+}
+
+@media (max-width: 576px) { 
+    .hero-image {
+        margin-left: -15px;
+        margin-right: -15px;
+        height: 480px;
+    }
+    .search-bar {
+        border-radius: 2px;
+        width: 300px;
+    }
+    .hero-content {
+        width: 300px;
+    } 
+}
