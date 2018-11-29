@@ -1,0 +1,24 @@
+.category {
+    margin-top: 1rem;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.category-header {
+    font-size: 2rem;
+    margin-bottom: 1.15em;
+    color: rgba(0,0,0,.7);
+}
+
+.category-list {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+@media (max-width: 576px) { 
+    .category-header {
+        text-align: center;
+    }
+}
