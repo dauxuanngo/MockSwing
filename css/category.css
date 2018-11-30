@@ -84,6 +84,7 @@
     color: #0a0918;
     font-weight: bold;
     padding: 0 0.5em;
+    cursor: pointer;
 }
 
 @media (max-width: 768px) { 
