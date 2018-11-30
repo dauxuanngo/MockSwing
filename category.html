@@ -45,6 +45,11 @@
                 </li>
             </div>
         </ul>
+        <ul class="navbar-nav ml-auto d-block d-sm-none">
+            <div class="d-flex">
+                <i class="material-icons text-secondary ml-2 pl-1">search</i>
+            </div>
+        </ul>
         <div class="collapse navbar-collapse" id="navbarDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item active">
@@ -60,14 +65,49 @@
         </div>
     </nav>
     </div>
-    <main role="main" class="container-fluid">
-        <div class="category">
-            <div class="category-header">
-                Danh sách chủ đề
+    <div class="category-header">
+        <div class="site-wrapper h-100 d-flex flex-column justify-content-center">
+            <div class="category-title">Thể thao</div>
+        </div>
+    </div>
+    <main role="main">
+        <div class="d-none d-sm-block" style="height:1rem"></div>
+        <div class="site-wrapper">
+            <div class="breadcrumb-bar d-flex">
+                <div class="site-breadcrumb">
+                    <div class="site-breadcrumb-container">
+                        <div class="site-breadcrumb-viewport">
+                            <div class="site-breadcrumb-item"><a href="#">Chủ đề</a></div>
+                            <div class="site-breadcrumb-item"><a href="#">Thể thao</a></div>
+                            <div class="site-breadcrumb-item active">Bóng đá</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-grow-1"></div>
+                <div class="menu-navigator" style="line-height: 24px;">
+                    <a class="d-block d-sm-none" href="#" data-toggle="collapse" data-target="#menuDropdown"
+                        aria-controls="menuDropdown" aria-expanded="false" style="width: 65px;">Menu
+                        <i class="material-icons text-secondary">expand_more</i>
+                    </a>
+                </div>
             </div>
-            <div class="category-list d-flex flex-wrap">
-                <div class="category-card">
-
+            <div class="collapse border-bottom menu-dropdown" id="menuDropdown">
+                <div class="py-3">
+                    <div class="menu-dropdown-list">
+                        <div class="parent-menu"><a href="#">Danh sách chủ đề</a></div>
+                        <div class="parent-menu"><a href="#">Thể thao</a></div>
+                        <div class="parent-menu active"><a href="#">Bóng đá</a></div>
+                        <div class="child-menu-container d-flex w-100 px-1">
+                            <div class="col-6">
+                                <div class="child-menu"><a href="#">Asenal</a></div>
+                                <div class="child-menu"><a href="#">Manchester</a></div>
+                            </div>
+                            <div class="col-6">
+                                <div class="child-menu"><a href="#">Manchester City</a></div>
+                                <div class="child-menu"><a href="#">Juvetus</a></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -11,6 +11,10 @@ a:hover {
     text-decoration: none;
 }
 
+ul {
+    padding-inline-start: 0px;
+}
+
 .color-up {
     color: #ff6600;
 }
@@ -43,16 +47,23 @@ a:hover {
 
 .card {
     box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+    border: none;
 }
 
-ul {
-    padding-inline-start: 0px;
+.pointer {
+    cursor: pointer;
 }
 
 @media only screen and (min-width: 980px) {
     .container-fluid, .navbar  {
         padding-right: 3.75rem;
         padding-left: 3.75rem;
+    }
+
+    .site-wrapper {
+        max-width: 1140px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
