@@ -63,28 +63,6 @@ ul {
     text-overflow: ellipsis;
 }
 
-@media only screen and (min-width: 992px) {
-    .container-fluid, .navbar  {
-        padding-right: 1.75rem;
-        padding-left: 1.75rem;
-    }
-
-    .site-wrapper {
-        max-width: 900px;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .container-fluid, .navbar  {
-        padding-right: 3.75rem;
-        padding-left: 3.75rem;
-    }
-
-    .site-wrapper {
-        max-width: 1140px;
-    }
-}
-
 .btn:focus, .form-control:focus {
     outline: none;
     box-shadow: none;
@@ -104,6 +82,7 @@ ul {
 .search-bar {
     border-radius: 2px;
     width: 350px;
+    max-width: 100%;
 }
 
 .nav-link {
@@ -133,3 +112,38 @@ footer {
     margin-right: 0.5rem;
     margin-top: 0.5rem;
 }
+
+@media (max-width: 575.98px) {
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container-fluid, .navbar  {
+        padding-right: 1.75rem;
+        padding-left: 1.75rem;
+    }
+
+    .site-wrapper {
+        max-width: 900px;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .container-fluid, .navbar  {
+        padding-right: 3.75rem;
+        padding-left: 3.75rem;
+    }
+
+    .site-wrapper {
+        max-width: 1140px;
+    }
+ }
+

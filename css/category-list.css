@@ -14,6 +14,10 @@
     justify-content: flex-start;
 }
 
+.category-list .card {
+    width: 23%;
+}
+
 .card {
     display: inline-block;
     margin: 5px;
@@ -34,12 +38,12 @@
 }
 
 .cover {
-    height: 190px;
-    width: 190px;
+    height: calc(100%-40px);
     background-color: #fff;
     border-radius: 2px 2px 0 0;
     overflow: hidden;
     position: relative;
+    width: 100%;
 }
 
 .cover-image:hover {
@@ -50,38 +54,19 @@
     padding: 2rem;
 }
 
-@media (max-width: 576px) { 
+@media (max-width: 767.98px) { 
+
     .category-list {
-        min-width: 340px;
         justify-content: space-around;
     }
 
-    .category-header {
-        text-align: center;
-    }
-
-    .cover {
-        height: 160px;
-        width: 160px;
+    .category-list .card {
+        width: 45%;
     }
 
     .cover-image div{
         padding: 1.5rem;
     }
     
-}
+} 
 
-@media (max-width: 370px) { 
-    main {
-        padding-left: 5px!important;
-        padding-right: 5px!important;
-    }
-
-    .category-list {
-        min-width: 300px;
-    }
-    .cover {
-        height: 140px;
-        width: 140px;
-    }
-}
