@@ -61,6 +61,10 @@
     border: solid 1px #ee2761;
 }
 
+.shipinfo-contents {
+    font-size: 0.9rem;
+}
+
 @media (max-width: 767.98px) { 
 
 }
