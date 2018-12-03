@@ -15,6 +15,14 @@ ul {
     padding-inline-start: 0px;
 }
 
+select {
+    border-radius: 2px!important;
+}
+
+.color-dark {
+    color: #282562;
+}
+
 .color-up {
     color: #ff6600;
 }
@@ -25,6 +33,22 @@ ul {
 
 .color-down {
     color: #ffc600;
+}
+
+.w-400 {
+    font-weight: 400;
+}
+
+.w-500 {
+    font-weight: 500;
+}
+
+.w-600 {
+    font-weight: 600;
+}
+
+.w-700 {
+    font-weight: 700;
 }
 
 .btn-middle {
