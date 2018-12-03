@@ -215,6 +215,9 @@ footer {
     .breadcrumb-bar {
         border-bottom: 1px solid #dee2e6!important;
     }
+    .mobile-center {
+        text-align: center;
+    }
 }
 
 @media (max-width: 991.98px) { 
