@@ -99,6 +99,9 @@
     .btn-add-card {
         width: 100%;
     }
+    .product-price {
+        font-size: 0.8rem;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1199.98px) { 
