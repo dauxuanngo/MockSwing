@@ -1,0 +1,8 @@
+@media (min-width: 768px) { 
+    .order-info {
+        padding-left: 1rem!important;
+    }
+    .customer-info {
+        padding-right: 1rem!important;
+    }
+}

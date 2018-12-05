@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SWING</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/payment.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light border-bottom navbar-expand-xs">
+        <a class="navbar-brand d-none d-md-block" href="index.html">
+            <img src="imgs/logo.png" width="30" height="30" alt=""> Swing
+        </a>
+        <a class="navbar-brand d-block d-md-none" href="#" data-toggle="collapse" data-target="#navbarDropdown"
+            aria-controls="navbarDropdown" aria-expanded="false">
+            <img src="imgs/logo.png" width="30" height="30" alt=""> Swing
+            <i class="material-icons text-secondary">expand_more</i>
+        </a>
+        <div class="border mr-auto search-bar ml-3 d-none d-md-block">
+            <div class="d-flex">
+                <i class="material-icons text-secondary ml-2 pl-1">search</i>
+                <input type="text" class="form-control border-0" placeholder="Tìm kiếm" />
+            </div>
+        </div>
+        <ul class="navbar-nav ml-auto d-none d-md-block">
+            <div class="d-flex">
+                <div class="justify-content-center align-self-center mr-3">
+                    <i class="material-icons text-success shopping-cart">shopping_cart</i>
+                    <span class="text-success">1</span>
+                </div>
+                <li class="nav-item mr-4">
+                    <a class="nav-link" href="#">
+                        THIẾT KẾ NGAY
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        ĐĂNG NHẬP
+                    </a>
+                </li>
+            </div>
+        </ul>
+        <ul class="navbar-nav ml-auto d-block d-md-none">
+            <div class="d-flex">
+                <i class="material-icons text-secondary ml-2 pl-1">search</i>
+                <div class="justify-content-center align-self-center ml-3">
+                    <i class="material-icons text-success shopping-cart">shopping_cart</i>
+                    <span class="text-success">1</span>
+                </div>
+            </div>
+        </ul>
+        <div class="collapse navbar-collapse" id="navbarDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tài khoản</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kiểm tra đơn hàng</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main role="main">
+        <div class="d-none d-lg-block" style="height:1rem"></div>
+        <div class="site-wrapper">
+            <div class="main-container">
+                <div class="d-flex flex-wrap mt-3">
+                    <div class="col-md-6 col-sm-12 p-0 mb-3 customer-info">
+                        <div>
+                            <h4 class="text-success">Thanh toán</h4>
+                        </div>
+                        <div>
+                            <div class="my-4">
+                                <div class="my-1 fs-9 w-500">Thông tin liên lạc</div>
+                                <input type="email" class="form-control form-control-sm" value="mjsakju@gmail.com">
+                            </div>
+                            <div class="my-4">
+                                <div class="my-1 fs-9 w-500">Thông tin nhận hàng</div>
+                                <input type="text" class="form-control form-control-sm my-3" placeholder="Họ tên người nhận">
+                                <input type="text" class="form-control form-control-sm my-3" placeholder="Số điện thoại">
+                                <input type="text" class="form-control form-control-sm my-3" placeholder="Địa chỉ">
+                                <select class="form-control form-control-sm px-1">
+                                    <option>Tỉnh - Thành phố</option>
+                                    <option>Hà Nội</option>
+                                    <option>TPHCM</option>
+                                </select>
+                                <div class="border d-flex my-3 p-2" style="background-color: #dff2fb">
+                                    <div><input type="checkbox" checked /></div>
+                                    <div class="px-2 fs-9"><span class="text-dark w-500">Lưu thông tin nhận hàng </span><span
+                                            class="text-secondary">(thay thế địa chỉ cũ)</span></div>
+                                </div>
+                            </div>
+                            <div class="my-4">
+                                <div class="my-1 fs-9 w-500">Thông tin thanh toán</div>
+                            </div>
+                            <div class="my-4">
+                                <a href="#"><button class="btn btn-success w-100 btn-lg">
+                                        <span>Xác nhận</span>
+                                    </button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 p-0 order-info mb-3">
+                        <div>
+                            <h5 class="text-success">Chi tiết đơn hàng</h5>
+                        </div>
+                        <div class="list-order my-3 border-bottom">
+                            <div class="order-detail d-flex py-3">
+                                <div>
+                                    <img src="http://vangogh.teespring.com/shirt_pic/4999734/5744270/2/2122/front.jpg?v=2016-04-07-12-57"
+                                        width="45px" />
+                                </div>
+                                <div class="pl-3 flex-grow-1">
+                                    <div class="w-400 fs-9"><span>Hiking Boots - Women's Long Sleeve</span></div>
+                                    <div class="fs-8 text-secondary">Size S - Màu trắng</div>
+                                </div>
+                                <div class="pl-2">
+                                    <div class="w-400 fs-8"><span>1 x </span> <span class="w-500">200,000 đ</span></div>
+                                </div>
+                            </div>
+                            <div class="order-detail d-flex py-3">
+                                <div>
+                                    <img src="http://vangogh.teespring.com/shirt_pic/4999734/5744270/2/2122/front.jpg?v=2016-04-07-12-57"
+                                        width="45px" />
+                                </div>
+                                <div class="pl-3 flex-grow-1">
+                                    <div class="w-400 fs-9"><span>Hiking Boots - Women's Long Sleeve</span></div>
+                                    <div class="fs-8 text-secondary">Size S - Màu trắng</div>
+                                </div>
+                                <div class="pl-2">
+                                    <div class="w-400 fs-8"><span>1 x </span> <span class="w-500">200,000 đ</span></div>
+                                </div>
+                            </div>
+                            <div class="shipping-price d-flex py-3">
+                                <div class="flex-grow-1">
+                                    <span class="text-dark w-400 fs-9">Phí vận chuyển</span>
+                                </div>
+                                <div>
+                                    <div class="w-500 fs-8 text-dark">50,000 đ</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-0">
+                            <div class="d-flex">
+                                <div class="flex-grow-1"><span class="w-500 fs-9">Tổng tiền</span></div>
+                                <div class="text-success fs-9">450,000 đ</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer border-top h-100">
+        <div class="container-fluid h-100">
+            <div class="mt-5 d-flex">
+                <ul class="footer-menu">
+                    <li>
+                        <a href="#">Về Swing</a>
+                    </li>
+                    <li>
+                        <a href="#">Hỗ trợ</a>
+                    </li>
+                    <li>
+                        <a href="#">Điều khoản</a>
+                    </li>
+                    <li>
+                        <a href="#">Phương thức thanh toán</a>
+                    </li>
+                    <li>
+                        <a href="#">Chính sách vận chuyển</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mt-4 mb-5 d-flex">
+                <small class="copyright pull-left">© SA Company</small>
+                <div class="flex-grow-1"></div>
+                <a class="link-dark" href="#"><i class="fab fa-facebook fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="js/common.js"></script>
+    <script src="js/product.js"></script>
+</body>
+
+</html>
