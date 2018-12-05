@@ -51,6 +51,19 @@ select {
     font-weight: 700!important;
 }
 
+.fs-7{
+    font-size: 0.7rem!important;
+}
+
+.fs-8{
+    font-size: 0.8rem!important;
+}
+
+.fs-9{
+    font-size: 0.9rem!important;
+}
+
+
 .btn-middle {
     color: #fff;
     background-color: #ff9400;
