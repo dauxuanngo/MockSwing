@@ -9,10 +9,18 @@
     padding: 0 1rem;
 }
 
+
+
 @media (max-width: 767.98px) { 
     .product-card {
         width: 45%;
         padding: 0rem;
+    }
+}
+
+@media (min-width: 768px) { 
+    .order-detail {
+        margin-right: 2rem;
     }
 }
 
